@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="never"
+        android:icon="@drawable/baseline_videogame_asset_24"
+        android:id="@+id/connect4"
+        android:title="@string/connect_4">
+
+    </item>
+    <item
+        app:showAsAction="never"
+        android:icon="@drawable/baseline_miscellaneous_services_24"
+        android:id="@+id/options"
+        android:title="@string/options">
+
+    </item>
+
+</menu>

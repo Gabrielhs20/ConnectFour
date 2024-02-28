@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#6AABD2">
+
+
+    <!--Options TextView-->
+    <TextView
+        android:id="@+id/Options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#385E72"
+        android:gravity="center"
+        android:text="OPTIONS"
+        android:textColor="@color/ballWhite"
+        android:textSize="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <!--Radio Group-->
+    <RadioGroup
+        android:id="@+id/mode_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/Options"
+        app:layout_constraintStart_toStartOf="@+id/Options"
+        app:layout_constraintTop_toBottomOf="@+id/Options">
+
+        <!--Difficulty selector section-->
+        <TextView
+            android:id="@+id/SelectDifficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Select Difficulty"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+        <!--Easy Radio Button-->
+        <RadioButton
+            android:id="@+id/radio_easy"
+            android:onClick="Difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#FFFF00"
+            android:text="Easy"
+            tools:ignore="HardcodedText" />
+
+        <!--Medium Radio Button-->
+        <RadioButton
+            android:id="@+id/radio_medium"
+            android:onClick="Difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#ff9100"
+            android:text="Medium"
+            tools:ignore="HardcodedText" />
+
+        <!--Hard Radio Button-->
+        <RadioButton
+            android:id="@+id/radio_hard"
+            android:onClick="Difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#e5383b"
+            android:text="Hard"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="radio_easy" type="id" />
+    <item name="radio_medium" type="id" />
+    <item name="radio_hard" type="id" />
+    <item name="mode_radio_group" type="id" />
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ConnectFour</string>
+    <string name="connect_four">Connect Four</string>
+    <string name="options">Options</string>
+    <string name="connect_4">Connect 4</string>
+    <string name="easyMode" />
+    <string name="mediumMode" />
+    <string name="hardMode" />
+</resources>
